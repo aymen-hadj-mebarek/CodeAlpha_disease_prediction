@@ -10,7 +10,7 @@ This project is a part of my internship with **CodeAlpha**, focusing on building
 
 ## Project Structure
 
-### Training
+### Model_Training
 
 - **`label_encoder.pkl`**: The label encoder used for encoding disease labels.
 - **`model.pkl`**: The trained model file for predicting disease prognosis.
