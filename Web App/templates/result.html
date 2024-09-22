@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <title>Diagnosis Result</title>
+</head>
+<body>
+    <h1>Diagnosis</h1>
+    <p>The predicted diagnosis is: 
+        <ol>
+            {% for i in diagnosis %}
+            <li><b>{{i[0]}}</b>, with percentage of : {{i[1]}}</li>
+            {% endfor %}
+        </ol>
+    </p>
+    <a href="/">Go back to symptom selection</a>
+</body>
+</html>
