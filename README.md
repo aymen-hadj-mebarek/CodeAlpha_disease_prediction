@@ -1,6 +1,6 @@
 # Disease Prediction from Medical Data
 
-This project is a part of my internship with **CodeAlpha**, focusing on building an AI model to predict disease prognosis based on symptom severity. The model is integrated into a Flask-based web application that allows users to select symptoms, and it predicts the most probable disease outcomes.
+Focusing on building an AI model to predict disease prognosis based on symptom severity. The model is integrated into a Flask-based web application that allows users to select symptoms, and it predicts the most probable disease outcomes.
 
 ## Overview
 
@@ -115,6 +115,3 @@ The web app allows users to:
 - The model will benefit from a **larger dataset** to improve performance.
 - Extend the web app to display **more detailed information** about the prognosis and treatment based on the predicted diagnosis.
 
-## Credits
-
-This project is developed as part of my internship at **CodeAlpha**.
